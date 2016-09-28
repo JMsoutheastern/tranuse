@@ -38,7 +38,8 @@ The software is free downloadable. The files constituting the application are:
 
 Getting started
 ---------------
-The software consists of a jar file, tranUSE.jar.
+Create a new folder called tranUSE and put together all downloaded files in it.
+The software consists of a jar file, tranUSE.jar. 
 If you are using Microsoft Windows, we recommend double-click on the tranUSE.bat file to run the application. Before, you can set the amount of memory that your PC gives to Java
 (1.3 megabytes as maximum in Windows) by editing the file and replacing the number “530” with another. Otherwise, enter "java -mx530m -jar tranUSE.jar" in a command shell
 (where "530" can be replaced by the amount of memory you want made available to the program).
