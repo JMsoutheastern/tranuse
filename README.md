@@ -111,7 +111,7 @@ appear at the command line and the corresponding output file will be created in 
 GNU General Public License, version 3 (GPL-3.0) (https://opensource.org/licenses/GPL-3.0)
 -----------------------------------------------
 
-    Copyright (C) <2015>  <Juan M Requena>
+    Copyright (C) <2015>  <CAESCG>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
