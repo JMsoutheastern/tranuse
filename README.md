@@ -102,8 +102,8 @@ Code1,Code2
 After creating the corresponding change process, a message like “The process Urbanization has been successfully created” and a sample with the ten first rows of the file should appear at
 the command line. The step 2- must be repeated as many times as change processes the user wants to define.
 
-3- Finally, once all change processes have been created, the name (including the extension csv) and absolute path to the folder where the user would like to save the output file must be introduced in the “Output directory” box, and then click on the “Run tranUSE” bottom. When the software has finalized a message like “Your file has been successfully exported” will
-appear at the command line and the corresponding output file will be created in the folder indicated. The csv output file can be joined by the column containing the spatial identifier (i.e., column Index) to a dbf table of the vector layer representing the LCLU map.
+3- Finally, once all change processes have been created, the name (including the extension csv) and absolute path to the folder where the user would like to save the output file must be introduced in the “Output directory” box, and then click on the “Run tranUSE” bottom. When the software has finalized, a message like “Your file has been successfully exported” will
+appear at the command line, and the corresponding output file will be created in the folder indicated. The csv output file can be joined by the column containing the spatial identifier (i.e., column Index) to a dbf table of the vector layer representing the LCLU map.
 
 
 GNU General Public License, version 3 (GPL-3.0) (https://opensource.org/licenses/GPL-3.0)
