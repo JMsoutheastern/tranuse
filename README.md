@@ -3,7 +3,7 @@ TranUSE is a Java application to interpret Land cover & land use (LCLU) changes 
 
 What is tranUSE?
 ----------------
-TranUSE is a Java application to interpret LCLU changes using user defined change processes. The application is based on the change process concept. A change process is defined as the conversion of one land patch from a class of LCLU to another one. The tranUSE algorithm compares patch by patch LCLU classes among two dates and assigns the corresponding change process previously defined by user.
+TranUSE is a Java application to interpret LCLU changes using user-defined change processes. The application is based on the change process concept. A change process is defined as the conversion of one land patch from a class of LCLU to another one. The tranUSE algorithm compares patch by patch LCLU classes among two dates and assigns the corresponding change process previously defined by user.
 
 
 Contact: Juan Miguel Requena, juanmir@ual.es
