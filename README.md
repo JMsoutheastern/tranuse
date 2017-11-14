@@ -48,7 +48,7 @@ If you are using Microsoft Windows, we recommend double-click on the tranUSE.bat
 General problems
 ----------------
 - Problems with your Java installation.
-Sign: clicking on maxent.bat causes a window to appear but immediately disappear.
+Sign: clicking on tranUSE.bat causes a window to appear but immediately disappear.
 Open the command line of ms-dos (by clicking "start" then "run" and then typing "cmd"). Go to the directory where the tranUSE.jar and tranUSE.bat are (using the “cd” command) and
 type tranUSE.bat. You may get three different responses:
 
