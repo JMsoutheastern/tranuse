@@ -1,5 +1,5 @@
 # TranUSE
-TranUSE is a Java application to interpret Land cover & land use (LCLU) changes using user-defined change processes.
+TranUSE is a Java application to interpret land cover & land use (LCLU) changes using user-defined land use trajectories.
 
 What is tranUSE?
 ----------------
