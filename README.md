@@ -1,4 +1,4 @@
-# TranUSE
+# tranUSE
 tranUSE is a open-source Java application to interpret land use changes using user-defined land use trajectories.
 
 What is tranUSE?
