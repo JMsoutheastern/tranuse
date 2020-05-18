@@ -69,7 +69,7 @@ Required data input/output and how to run tranUSE
 -------------------------------------------------
 The inputs required by the software are csv files (i.e., comma-separated value). Below, the content and structure of the required data files are explained:
 
-1- Land use data. This input data file consists of five columns with the following header: Index, Code1, Code2, Label1, Label2 and Change, and as many rows as there are patch lands from the maps. The Index column contains the spatial identifier of each patch land from the original GIS map. Code1 and Code2 correspond to the codes (i.e., numbers) that represent each land use category in the first date and the second one, respectively. Label1 and Label2 are the descriptions for those codes and finally, Change is an empty column which will be filled by the application with the corresponding land use trajectories. Below, it is showed an example of the structure of this file:
+1- Land use data. This input data file consists of five columns containing the following header: Index, Code1, Code2, Label1, Label2 and Change, and as many rows as polygons there are. The Index column contains the spatial identifier of each polygon in the original shapefile. Code1 and Code2 correspond to the codes (i.e., numbers) that represent each land use category in the first and second date, respectively. Label1 and Label2 are the description of the codes, and finally, Change is an empty column that will be filled by the application with the corresponding land use trajectories. Below, it is shown an example of the structure of this file:
 
 Index,Code1,Code2,Label1,Label2,Change
 1,10,10,urban,urban,
@@ -77,7 +77,7 @@ Index,Code1,Code2,Label1,Label2,Change
 3,21,11,shrubland,village,
 (...)
 
-The absolute path for this file must be introduced in the first box of the tranUSE interface and then click on the “Load input data” bottom. A message like “Your csv file has been successfully loaded” and a sample with the ten first rows of the file should appear at the command line.
+The absolute path of the file must be typed in the upper right box of the tranUSE interface, and then click on the “Load input data” bottom. A message like “Your csv file has been successfully loaded” and a sample with the ten first rows of the file should appear on the command line.
 
 2- Land use trajectory files. It is required one csv file per trajectory and they must be independently imported by introducing their absolute path and name in the “Process name” box and then click on the “Create Process” bottom. Each csv file consists of two columns with the following header: Code1 and Code2. The column Code1 should contain the codes for the land use categories in the first date and Code2 the codes in the second one. The length of both columns must match; therefore gaps must be filled in with the number -999. There is no limit for the number of land use trajectories that can be created. In the example below, a trajectory called “Urbanization” is defined as follows:
 
@@ -90,7 +90,7 @@ Code1,Code2
 
 After creating the corresponding trajectory, a message like “The process Urbanization has been successfully created” and a sample with the ten first rows of the file should appear at the command line. The step 2- must be repeated as many times as trajectories the user wants to define.
 
-3- Finally, once all trajectories have been created, the name (including the extension csv) and absolute path to the folder where the user would like to save the output file must be introduced in the “Output directory” box, and then click on the “Run tranUSE” bottom. When the software has finalized, a message like “Your file has been successfully exported” will appear at the command line, and the corresponding output file will be created in the folder indicated. The csv output file can be joined by the column containing the spatial identifier (i.e., column Index) to a dbf table of the vector layer representing the land use map.
+3- Finally, once all the trajectories have been processed, the name (including the extension csv) and the absolute path of the folder to save the output file must be typed in the “Output directory” box, and then click on the “Run tranUSE” bottom. Once the software has finalized, a message like “Your file has been successfully exported” will appear on the command line, and the corresponding output file will be created in the indicated folder. The csv output file can be joined by the column containing the spatial identifier (i.e., column Index) to a dbf table of the vector layer representing the land use map on a GIS.
 
 
 GNU General Public License, version 3 (GPL-3.0) (https://opensource.org/licenses/GPL-3.0)
