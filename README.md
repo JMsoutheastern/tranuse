@@ -19,7 +19,7 @@ Operating System: Windows, Unix based systems (Linux, Solaris and Mac OS X) and 
 Terms and Conditions
 --------------------
 This software may be used for all educational, management and research activities.  This software may not be used for any commercial or for-profit purposes.
-The software is provided "as-is", and does not come with any warranty or guarantee of any kind. The register number of the intellectual property is RTA-141-15
+The software is provided "as-is", and does not come with any warranty or guarantee of any kind. The register number of the intellectual property is RTA-04/2015/17698
 (Andalusian Government https://ws096.juntadeandalucia.es/ninfa/entrada.do).
 
 
