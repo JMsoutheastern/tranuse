@@ -1,9 +1,9 @@
 # tranUSE
-tranUSE is a open-source Java application to interpret land use changes using user-defined land use trajectories.
+_tranUSE_ is an open-source Java application to interpret land use changes using user-defined land-use trajectories.
 
-What is tranUSE?
+What is _tranUSE_?
 ----------------
-tranUSE is a Java application to interpret land use changes using user-defined land use trajectories. The application is based on the concept of land use trajectory: the conversion of one land patch from a land use category to another one. The tranUSE algorithm compares patch by patch land use categories among two dates and assigns the corresponding land use trajectory previously defined by user.
+_tranUSE_ is a Java application to interpret land use changes using user-defined land-use trajectories. The application is based on the concept of land use trajectory: the conversion of one land patch from a land use category to another one. The _tranUSE_ algorithm compares patch-by-patch land use categories among two dates and assigns the corresponding land use trajectory previously defined by user.
 
 
 Contact: Juan Miguel Requena, juanmir@ual.es
